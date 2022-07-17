@@ -15,6 +15,7 @@ body, html {
 .container {
     display: flex;
     height: 100vh;
+    background-color: rgb(249,250,251);
 }
 
 .side-banner {
@@ -25,8 +26,6 @@ body, html {
 
 .content {
     flex: auto;
-    margin-left: 25px;
-    margin-right: 5%;
 }
 
 .side-banner .background {
@@ -72,6 +71,8 @@ body, html {
 .content .action-text {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-left: 25px;
+    margin-right: 5%;
 }
 
 .form-panel .form-item {
@@ -89,16 +90,18 @@ body, html {
 }
 
 .form-panel {
-    display: flex;
-    flex-direction: column;
-    gap: 3em;
-
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 .form-panel form {
     color: #314155;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    
+    padding-bottom: .5em;
+    padding-left: 25px;
+    padding-right: 5%;
 }
 
 .form-panel legend {
@@ -109,6 +112,16 @@ body, html {
 
 .form-panel label {
     font-size: 12px;
+}
+
+.form-panel .under-form {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+
+    margin-top: 3em;
+    margin-left: 25px;
+    margin-right: 5%;
 }
 
 .form-panel a {
