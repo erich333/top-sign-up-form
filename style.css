@@ -56,6 +56,19 @@ body, html {
     padding:10px;
 }
 
+.side-banner .photo-credit {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: .5em;
+    color: white;
+}
+
+.side-banner .photo-credit a {
+    color: white;
+}
+
 .form-panel .form-item {
     display: flex;
     flex: auto;
