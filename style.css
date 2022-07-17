@@ -82,3 +82,9 @@ body, html {
     margin-bottom: 15px;
     margin-right: 25%;
 }
+
+.form-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
