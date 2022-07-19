@@ -72,8 +72,10 @@ body, html {
 .content .action-text {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin-left: 25px;
-    margin-right: 5%;
+    margin-left: 2em;
+    margin-right: 8em;
+    margin-top: 8em;
+    margin-bottom: 4em;
 }
 
 .form-panel .form-item {
@@ -115,7 +117,13 @@ body, html {
     font-size: 12px;
 }
 
-input:focus-visible, input:focus {
+.form-panel input {
+    font-size: 16px;
+    padding: .25rem;
+}
+
+.form-panel input:focus-visible, 
+.form-panel input:focus {
     outline: none;
     border: 1px solid rgb(29,78,216);
     border-radius: 5px;
