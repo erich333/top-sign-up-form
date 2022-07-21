@@ -120,11 +120,13 @@ body, html {
 .form-panel input {
     font-size: 16px;
     padding: .25rem;
+    
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
 }
 
 .form-panel .error {
     border-color: red;
-    background-color: pink;
 }
 
 .item-error::after {
