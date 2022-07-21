@@ -122,6 +122,18 @@ body, html {
     padding: .25rem;
 }
 
+.form-panel .no-pwd-match {
+    border-color: red;
+    background-color: pink;
+}
+
+.item-no-match::after {
+    content: "* Passwords do not match";
+    color: red;
+    font-size: .75rem;
+    font-weight: normal;
+}
+
 .form-panel input:focus-visible, 
 .form-panel input:focus {
     outline: none;
