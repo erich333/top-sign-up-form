@@ -122,12 +122,12 @@ body, html {
     padding: .25rem;
 }
 
-.form-panel .no-pwd-match {
+.form-panel .error {
     border-color: red;
     background-color: pink;
 }
 
-.item-no-match::after {
+.item-error::after {
     content: "* Passwords do not match";
     color: red;
     font-size: .75rem;

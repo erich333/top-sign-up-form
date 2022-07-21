@@ -7,13 +7,13 @@ pwd_confirm_input.addEventListener('input', stylePasswordFields);
 
 function stylePasswordFields() {
     if(arePasswordsSame()) {
-        pwd_input.classList.remove("no-pwd-match");
-        pwd_confirm_input.classList.remove("no-pwd-match");
-        pwd_input_parent.classList.remove("item-no-match");
+        pwd_input.classList.remove("error");
+        pwd_confirm_input.classList.remove("error");
+        pwd_input_parent.classList.remove("item-error");
     } else {
-        pwd_input.classList.add("no-pwd-match");
-        pwd_confirm_input.classList.add("no-pwd-match");
-        pwd_input_parent.classList.add("item-no-match");
+        pwd_input.classList.add("error");
+        pwd_confirm_input.classList.add("error");
+        pwd_input_parent.classList.add("item-error");
     }
 }
 
