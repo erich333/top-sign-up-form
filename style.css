@@ -177,3 +177,8 @@ body, html {
     box-shadow: inset 2px 2px 10px black;
     background-color: #47573a;
 }
+
+input:not(:placeholder-shown):invalid {
+    border-color: red;
+    background-color: pink;
+}
